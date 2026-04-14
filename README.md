@@ -1,48 +1,95 @@
 # Customer-Segmentation-Churn-Pattern-Analytics-in-European-Banking
 
-Project Objectives 
-• Measure overall churn rate  • Identify churn distribution across customer segments  • Compare churn behavior across European regions  
-Secondary Objectives 
-• Understand churn among high-value customers  • Evaluate engagement and tenure patterns  • Support strategic planning and marketing decisions
+## Project Overview
+This project focuses on analyzing customer data from a European bank to identify churn patterns and segment customers based on their behavior.
 
-step 1 : Import required libraries, step 2: Load Dataset, step 3 :Data Cleaning, step 4 :Measure Overall Churn Rate (Primary Objective)
+The goal is to help the bank understand:
+- Which customers are likely to leave (churn)
+- Different types of customer groups
+- Business strategies to improve customer retention
 
-Churn Distribution Across Customer Segments 
-a.Age vs Churn, b.Gender vs Churn, c.Balance vs Churn, d.Churn Behavior by Geography (European Regions) 
+---
 
-Observation:
-you will likely see:Germany → Highest churn, France → Medium, Spain → Lowest
+## 🎯 Objectives
+- Identify key factors affecting customer churn
+- Segment customers using clustering techniques
+- Provide actionable insights for business decision-making
 
-High Value Customer Churn Analysis
+---
 
-Engagement and Tenure Analysis
+## 🧰 Tools & Technologies Used
+- Python
+- Pandas
+- Matplotlib / Seaborn
+- Scikit-learn
+- Tableau
 
-Customer Segmentation using K-Means:Segment customers based on financial behaviour.
+---
 
-Financial Profile of Churned Customers
+## 📁 Dataset Features
+- Customer ID
+- Age
+- Gender
+- Geography
+- Account Balance
+- Estimated Salary
+- Tenure
+- Number of Products
+- Credit Score
+- Churn (Exited)
 
-Obsevation:
+---
 
-1. Overall churn rate = ~20%
+## ⚙️ Approach
 
-2. Germany shows highest churn
+### 1. Data Cleaning & Preprocessing
+- Handled missing values
+- Encoded categorical variables
+- Selected important features
 
-3. Customers aged 40–60 churn more
+### 2. Exploratory Data Analysis (EDA)
+- Analyzed churn distribution
+- Compared churn across age, balance, and geography
+- Identified patterns and trends
 
-4. Inactive members have higher churn probability
+### 3. Customer Segmentation
+Used clustering algorithm:
+- K-Means Clustering
 
-5. High balance customers show moderate churn risk
+Segmented customers into groups such as:
+- High value customers
+- At-risk customers
+- Low engagement customers
 
-6. Customers with short tenure (<3 years) churn more
+---
 
-Strategic Recommendations
+## 📈 Key Insights
+- Customers with low balance and fewer products are more likely to churn
+- Certain regions show higher churn rates
+- High-value customers require targeted retention strategies
 
-Banks can:
+---
 
-• Target high-risk segments with loyalty offers
+## 💡 Business Recommendations
+- Offer personalized plans for high-risk customers
+- Improve engagement for low-activity users
+- Focus marketing campaigns on high-value segments
 
-• Improve engagement of inactive members
+---
 
-• Create region-specific retention strategies
+## 📊 Output
+- Customer clusters visualization
+- Churn analysis charts
+- Insights for business decisions
 
-• Monitor high-balance customers
+---
+
+## 🚀 Conclusion
+This project helps in understanding customer behavior and predicting churn trends, enabling better decision-making for customer retention in the banking sector.
+
+---
+
+## 📎 Files Included
+- churn_analysis.ipynb
+- dataset.csv
+- visualization.png
